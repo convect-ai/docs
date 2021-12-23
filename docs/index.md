@@ -26,7 +26,7 @@ Convect™ implements the [REST](https://blog.hubspot.com/website/what-is-rest-a
 
 ```bash
 curl --request POST \
-  --url https://convect-dev.us.auth0.com/oauth/token \
+  --url https://forecast.convect.ai/auth/tokens \
   --header 'content-type: application/json' \
   --data '{"client_id":"{YOUR_CLIENT_ID}","client_secret":"{YOUR_CLIENT_SECRET}","audience":"https://forecast.convect.ai","grant_type":"client_credentials"}'
 ```
