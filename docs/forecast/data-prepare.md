@@ -99,7 +99,7 @@ Before calling the APIs, it's better to make datasets available as remote urls. 
 
 === "curl"
     ```bash
-    {!> forecast-quickstart.sh [ln:1-11] !}
+    {!> forecast-quickstart.sh [ln:1-36] !}
     ```
 
 **Step2**. Declare target time series `datasets` under a `datagroup`
@@ -113,7 +113,7 @@ The next step is to associate individual `dataset` object to a `datagroup`. When
 
 === "curl"
     ```python
-    {!> forecast-quickstart.sh [ln:14-32] !}
+    {!> forecast-quickstart.sh [ln:38-57] !}
     ```
 
 * `dataset_type` specifies the type of the dataset. Available options are `TARGET_TIME_SERIES`, `RELATED_TIME_SERIES`, and `ITEM_META`.

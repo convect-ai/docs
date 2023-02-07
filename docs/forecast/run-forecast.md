@@ -14,7 +14,7 @@ For example, code below sets up a task that outputs the consecutive 14-week pred
 
 === "curl"
     ```bash
-    {!> forecast-quickstart.sh [ln:35-49] !}
+    {!> forecast-quickstart.sh [ln:60-77] !}
     ```
 
 ## Trigger Forecast
@@ -28,7 +28,7 @@ Once a config is set up, we can trigger the actual forecast run by calling `POST
 
 === "curl"
     ```bash
-    {!> forecast-quickstart.sh [ln:52-55] !}
+    {!> forecast-quickstart.sh [ln:80-91] !}
     ```
 
 ## Retrieve Result
@@ -42,7 +42,7 @@ Once a run is triggered, query the status of the run by calling `GET` endpoint `
 
 === "curl"
     ```bash
-    {!> forecast-quickstart.sh [ln:59-61] !}
+    {!> forecast-quickstart.sh [ln:94-122] !}
     ```
 
 Once the returned `status` is indicated as `Succeeded`, you can read the result from the output path specified when setting up the forecast config.
